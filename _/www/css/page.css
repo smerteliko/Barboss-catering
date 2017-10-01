@@ -1,0 +1,317 @@
+body{
+    color: white;
+    font-family: "Trebuchet MS";
+}
+#banner{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#banner > img{
+    max-width: 1000px;
+}
+/*BARS*/
+.bars{
+    font-family: "Trebuchet MS";
+    line-height: 1.2;
+    padding: 25px 20px 73px 20px;
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+#menu-bar{
+    position: absolute;
+    top: -50px;
+    left: -75px;
+}
+.bars-light{
+    background-color: #afa8b5;
+    color: #151216;
+}
+.bars-dark{
+    background-color: #252126;
+    color: #efe6e6;
+}
+.bars h2{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.catalog{
+    position: absolute;
+    bottom: -27px;
+}
+.catalog div{
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    vertical-align: top;
+}
+.catalog-item img{
+    max-width: 51px;
+}
+#punch-catalog img{
+    max-width: 70px;
+}
+#hot-2 img{
+    max-width: 53px;
+}
+#health-bars{
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    margin-top: -105px;
+    margin-bottom: -78px;
+    padding-left: 100px;
+}
+.bars-dark h2{
+  color: #dd975c;
+}
+/*USLUGI*/
+#t18{
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    line-height: 1.2;
+}
+#preview{
+    color: #afa8b5;
+    font-weight: bold;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.uslugi{
+    position: relative;
+    padding: 10px 20px 20px 20px;
+    margin-bottom: 40px;
+}
+.uslugi:nth-child(even){
+    background-color: #afa8b5;
+    color: #151216;
+}
+.uslugi:nth-child(odd){
+    background-color: #252126;
+    color: #afa8b5;
+}
+.uslugi:nth-last-child(1){
+    padding-bottom: 40px;
+    margin-bottom: 0;
+}
+.uslugi h3{
+    font-size: 18px;
+    color: #151216;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.uslugi:nth-child(odd) h3{
+    color: #afa8b5;
+}
+#uslugi-img{
+    position: absolute;
+    top: -60px;
+    left: -65px;
+}
+#uslugi-img-middle{
+    position: absolute;
+    right: -65px;
+    top: -130px;
+}
+/*CATALOG*/
+#catalog-list{
+    margin-right: -5px;
+}
+.navigation{
+    color:#dd975c;
+    font-size: 20px;
+}
+.navigation a{
+    color:#dcdcdc;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color:#dd975c;
+    text-decoration: underline;
+}
+#catalog-list h2, #catalog-list h3{
+    text-align: center;
+    color:#dd975c;
+}
+#catalog-list > div{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 240px;
+    height: 240px;
+    border: 1px solid #a5a5a5;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-family: "Trebuchet MS";
+    color: #fdfdfd;
+    text-align: center;
+}
+#catalog-list > div.gray{
+    /*background: #272728;*/
+    border: 1px solid #272728;
+    position: relative;
+}
+.gray img{
+    position: absolute;
+    z-index: 1;
+}
+#gray-01{background-image: url('/img/style/gray-bg-01.jpg');}
+#gray-01 img{
+    top: -30px;
+    left: -55px;
+}
+#gray-02{background-image: url('/img/style/gray-bg-06.jpg');}
+#gray-02 img{
+    top: -30px;
+    right: -20px;
+}
+#gray-03{background-image: url('/img/style/gray-bg-03.jpg');}
+#gray-03 img{
+    bottom: -45px;
+    right: -20px;
+}
+#gray-04{background-image: url('/img/style/gray-bg-04.jpg');}
+#gray-04 img{
+    bottom: -40px;
+    left: -20px;
+}
+#gray-05{background-image: url('/img/style/gray-bg-05.jpg');}
+#gray-05 img{
+    bottom: -25px;
+    left: -25px;
+}
+#gray-06{background-image: url('/img/style/gray-bg-02.jpg');}
+#gray-06 img{
+    bottom: -20px;
+    right: -30px;
+}
+#gray-07{background-image: url('/img/style/gray-bg-07.jpg');}
+#gray-07 img{
+    bottom: -10px;
+    right: -37px;
+}
+#gray-08{background-image: url('/img/style/gray-bg-08.jpg');}
+#gray-08 img{
+    bottom: -15px;
+    left: -25px;
+}
+#beer-01{background-image: url('/img/style/Beer_01-sm.jpg');}
+#beer-02{background-image: url('/img/style/Beer_02-sm.jpg');}
+#beer-03{background-image: url('/img/style/Beer_03-sm.jpg');}
+#beer-04{background-image: url('/img/style/Beer_04-sm.jpg');}
+#beer-05{background-image: url('/img/style/Beer_05-sm.jpg');}
+#beer-06{background-image: url('/img/style/Beer_06-sm.jpg');}
+#beer-07{background-image: url('/img/style/Beer_07-sm.jpg');}
+#beer-08{background-image: url('/img/style/Beer_08-sm.jpg');}
+#beer-09{background-image: url('/img/style/Beer_09-sm.jpg');}
+#beer-10{background-image: url('/img/style/Beer_10-sm.jpg');}
+#catalog-list > div p:first-child{
+    padding-top: 20px;
+    font-size: 20px;
+}
+#catalog-list > div p.less-padding{
+    padding-top: 10px;
+}
+#catalog-list h3 a{
+    font-size: 24px;
+    color: #afa8b5;
+    text-decoration: none;
+}
+#catalog-list h3 a:hover{
+    text-decoration: underline;
+}
+/*TEAM*/
+.collage-line{
+    display: flex;
+    justify-content: center;    
+}
+.collage-line img{
+    margin-right: 3px;
+    max-height: 300px;
+}
+/*SPEC-20000*/
+#spec-left{
+    position: absolute;
+    left: 90px;
+}
+#t9 h2{
+  font-size: 18px;
+  font-family: "Trebuchet MS";
+  color: #dd975c;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+#t9 p{
+    text-align: center;
+}
+.spec{
+    padding: 1px 0 5px 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Trebuchet MS";
+    line-height: 1.2;
+}
+.spec:nth-child(even){
+    background-color: #afa8b5;
+    color: #151216;
+}
+.spec:nth-child(odd){
+    background-color: #252126;
+    color: #afa8b5;
+}
+/*Blog-Photoreport*/
+.blog-photoreport:nth-child(even){
+    margin-right: 5px;
+}
+.blog-photoreport{
+    max-width: 500px;
+    max-height: 350px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+}
+.blog-photoreport img{
+    max-width: 495px;
+}
+.blog-photoreport a{
+    color: #afa8b5;
+    font-weight: bold;
+    text-decoration: none;
+}
+.blog-photoreport a:hover{
+    color: #dd975c;
+    text-decoration: underline;
+}
+.blog-photoreport h3{
+    margin-bottom: 0;
+}
+.blog-photoreport p.date{
+    font-size: 14px;
+    color: #afa8b5;
+    margin-top: 0;
+}
+/*Photoreport*/
+.photoreport h2,.photoreport p.date{
+    text-align: center;
+    color: #dd975c;
+    margin-bottom: 0;
+}
+.photoreport p.date{
+    margin: 0;
+    font-size: 14px;
+}
+.photoreport div.magnific{
+    display: inline-block;
+    margin-right: 5px;
+}
+.photoreport img{
+    max-width: 490px;
+}
+.photoreport{
+    margin: 0 -5px 0 0;
+}

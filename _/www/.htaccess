@@ -1,0 +1,6 @@
+AddDefaultCharset UTF-8
+Options -Indexes
+
+RewriteEngine ON
+RewriteRule ^files/.*\.(php|rb|py)$ - [F,L,NC]
+RewriteRule ^temp/.*\.(php|rb|py)$ - [F,L,NC]

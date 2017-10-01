@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /index.php
+Allow: /page.php
+Allow: /css
+Allow: /files
+Allow: /img
+Allow: /scripts
+Allow: /inwidget
+Host: barboss-catering.ru

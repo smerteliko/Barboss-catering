@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09.02.2016, 13:35:40
+    Author     : Dmitry
+*/
+div.admmain {
+    max-width:1200px;
+    border: 1px solid grey;
+    padding: 2px;
+    margin: 0px auto;
+}
+
+div.imageedit {
+    display: inline-block;
+    border: solid 1px lightgray;
+    
+}
+
+/*div.imageedit img {
+    width: 320px;
+    height: 240px;
+}*/
+a.link_Blue{
+    color:#08C;
+    text-decoration: none;
+}
+a.link_Gray{
+    color: gray;
+    text-decoration: none;
+}
+a.link_Blue:hover,a.link_Gray:hover{
+    text-decoration: underline;
+}
+a.link_Green{
+    color: #008000;
+}
+a.link_Big{
+    font-size: 18px;
+}
+.admin-news{
+    border-collapse: collapse;
+}
+.admin-news td.delet{
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.admin-news td{
+    border: 1px solid grey;
+}
+.admin-news td:nth-child(1),
+.admin-news td:nth-child(2){
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.admin-news tr:nth-child(n+2):hover{
+    background: #bbbbbb;
+}
+.icons > img{vertical-align: middle;}
+
+table.pages caption,
+table.group caption,
+table.group-order caption{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.img-info{cursor:pointer;}
+#feedback-col1, #feedback-col2{
+    display: inline-block;
+    vertical-align: top;
+}
+#feedback-col2{
+    margin-left: 50px;
+    max-width: 700px;
+}
+#feedback-col2 .field{
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: grey;
+}
+#feedback-col2 .value{
+    font-size: 1.3em;
+}
+#feedback-col2 input[name=answer_a]{
+    width: 250px;
+    height: 20px;
+}
+#feedback-col2 textarea[name=answer_t]{
+    width: 600px;
+    height: 250px;
+}
+hr.style-two{
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
